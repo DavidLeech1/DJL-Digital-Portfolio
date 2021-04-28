@@ -1,0 +1,210 @@
+html {
+    background: #495867;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #1b262c;
+
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 1000px auto;
+  padding: 2em 2em 4em;
+}
+
+.Pic {
+    border-radius: 50%;
+    position: relative;
+    margin: 4em 4em auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    z-index: 9;
+}
+.Pic:hover{
+    opacity: 0.9;
+    border: 6px solid #0f4c75;
+}
+
+.Runway {
+    border-radius: 50%;
+    position: relative;
+    margin: 1em 4em auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    z-index: 9;
+    
+}
+.Runway:hover{
+    opacity: 0.9;
+    border: 6px solid #0f4c75;
+}
+
+
+
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #0f4c75;
+  border-radius: 50;
+  background-image: none;
+  max-width: 900px auto;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: white;
+  font-family:'Impact'; 
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #bbe1fa;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family:'Impact'; 
+  font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: skyblue;
+  color: #242424;
+}
+
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* to edit the grayscale effect edit the percentage below in your code*/
+    filter:brightness(50%);
+}
+
+
+
+
+
+
+
+
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: #fff;
+  border-color: #0f4c75;
+  border-width: 5px;
+  width: 95%;
+    height: 400px;
+    opacity: 0.8;
+
+
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #3282b8;
+    opacity: 0.5;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+#about-world {
+  max-height: 200px;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+
+hr {
+  border-color: white;
+  border-width: 5px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: maroon;
+}
+
+a:hover {
+  color: maroon;
+}
+
+.centered {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+
+
+.hidden-title {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0.8;
+    background: #0f4c75;
+    padding: 10px;
+}
+/* Hover on Parent Container */
+.hidden-title:hover{
+    cursor: pointer;
+    visibility: visible;
+}
+
+.hidden-title:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 1;
+}
